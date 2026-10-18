@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Yet another source of truth. The orchestrator only trusts pipeline.json. -->
+<pipeline>
+  <message>Hi</message>
+  <timeoutSeconds>-1</timeoutSeconds>
+  <stages>
+    <stage>asm</stage>
+  </stages>
+</pipeline>

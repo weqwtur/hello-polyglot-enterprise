@@ -1,0 +1,9 @@
+services:
+  hello:
+    build: .
+    command: ./scripts/run.sh
+  tests:
+    build: .
+    command: ./scripts/test.sh
+    depends_on:
+      - hello

@@ -1,0 +1,5 @@
+# Also intentionally contradictory. Also ignored.
+[pipeline]
+message = "hello, world!"
+timeout_seconds = 9999
+stages = ["java", "java", "java"]

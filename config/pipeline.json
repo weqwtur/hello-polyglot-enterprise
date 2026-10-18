@@ -1,0 +1,5 @@
+{
+  "message": "Hello, World!",
+  "timeout_seconds": 120,
+  "stages": ["java", "cpp", "node", "perl", "go", "rust", "c", "asm"]
+}

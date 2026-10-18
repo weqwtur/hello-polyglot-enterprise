@@ -1,0 +1,5 @@
+# Intentionally contradicts the other config files. Nobody reads this one.
+pipeline:
+  message: "Hello World"
+  timeout_seconds: 5
+  stages: [asm, c, rust, go, perl, node, cpp, java]
